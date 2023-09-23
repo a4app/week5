@@ -1,0 +1,118 @@
+.pincode-main {
+    background-color: #e90b60;
+    height: calc(100% - 52px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pincode-div {
+    width: 80%;
+    max-width: 444px;
+    display: flex;
+    flex-direction: column;
+    height: 160px;
+    background-color: #59065c;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    border: 2px solid #00ffff;
+}
+
+.pincode-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+}
+
+.pincode-input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.pincode-input:focus {
+    outline: none;
+}
+
+.pincode-submit {
+    padding: 0 15px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pincode-submit:disabled {
+    cursor: no-drop;
+}
+
+.output-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+}
+
+.city {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.district {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.state {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.spinner-div {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.spinnerr {
+    width: 30px;
+    height: 30px;
+    border-top: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
+    border-left: 5px solid #00000000;
+    border-right: 5px solid #FFFFFF00;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+
+
+.error-div {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: #FF0000;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,17 @@
+.test-main {
+    background-color: #cd3232;
+    height: calc(100% - 52px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-button {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+}

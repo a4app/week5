@@ -1,0 +1,102 @@
+.aadhaar-main {
+    background-color: yellowgreen;
+    height: calc(100% - 52px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aadhaar-div {
+    background-color: aliceblue;
+    width: 80%;
+    max-width: 400px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    margin-bottom: 60px;
+}
+
+.aadhaar-label {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.aadhaar-input {
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.aadhaar-input:focus {
+    outline: none;
+}
+
+.aadhaar-submit, .go-back {
+    width: 100px;
+    padding: 7px 15px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-weight: 800;
+    color: #000000;
+    background-color: #ffffff;
+    margin: 20px auto 0 auto;
+}
+.aadhaar-submit:disabled {
+    cursor: no-drop;
+    background-color: #b6b6b6;
+}
+
+.aadhaar-spinner {
+    width: 30px;
+    height: 30px;
+    border-left: 5px solid #000000;
+    border-right: 5px solid #000000;
+    border-top: 5px solid #aaaaaa00;
+    border-bottom: 5px solid #FFaaaF00;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.aadhaar-spinner-div {
+    background-color: aliceblue;
+    width: 80%;
+    max-width: 400px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #000000;
+    margin-bottom: 60px;
+}
+
+
+.output-msg {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    margin: 20px auto 0 auto;
+}
+
+.go-back {
+    margin-bottom: 20px;
+}
